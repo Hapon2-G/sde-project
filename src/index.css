@@ -42,3 +42,21 @@ button {
 button:hover {
   transition: all 200ms ease-in-out;
 }
+
+/* Scrollbar hides after 5s and shows on hover */
+/* Smart Scrollbar (visible at first, hides after 5s, shows on hover) */
+.scrollbar-smart {
+  overflow: auto;
+  scrollbar-width: thin;
+}
+
+.scrollbar-smart::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.scrollbar-smart::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+

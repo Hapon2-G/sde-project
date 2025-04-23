@@ -84,7 +84,7 @@ function CreateAccount() {
                   placeholder="Enter your username"
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
-                  className="w-full px-4 py-2 text-[14px] border rounded-md shadow-[inset_0px_2px_3px_rgba(0,0,0,0.2)]"
+                  className="w-full px-4 py-2 text-[14px] text-black placeholder-gray-500 border rounded-md shadow-[inset_0px_2px_3px_rgba(0,0,0,0.2)]"
                 />
               </div>
 
@@ -97,7 +97,7 @@ function CreateAccount() {
                   placeholder="Enter your password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  className="w-full px-4 py-2 text-[14px] border rounded-md shadow-[inset_0px_2px_3px_rgba(0,0,0,0.2)]"
+                  className="w-full px-4 py-2 text-[14px] text-black placeholder-gray-500 border rounded-md shadow-[inset_0px_2px_3px_rgba(0,0,0,0.2)]"
                 />
               </div>
 
@@ -110,7 +110,7 @@ function CreateAccount() {
                   placeholder="Confirm your password"
                   value={confirmpassword}
                   onChange={(e) => setConfirm(e.target.value)}
-                  className="w-full px-4 py-2 text-[14px] border rounded-md shadow-[inset_0px_2px_3px_rgba(0,0,0,0.2)]"
+                  className="w-full px-4 py-2 text-[14px] text-black placeholder-gray-500 border rounded-md shadow-[inset_0px_2px_3px_rgba(0,0,0,0.2)]"
                 />
               </div>
 
@@ -123,7 +123,7 @@ function CreateAccount() {
                   placeholder="Enter your email address"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full px-4 py-2 text-[14px] border rounded-md shadow-[inset_0px_2px_3px_rgba(0,0,0,0.2)]"
+                  className="w-full px-4 py-2 text-[14px] text-black placeholder-gray-500 border rounded-md shadow-[inset_0px_2px_3px_rgba(0,0,0,0.2)]"
                 />
               </div>
             </>
@@ -140,7 +140,7 @@ function CreateAccount() {
                   placeholder="Enter your first name"
                   value={firstName}
                   onChange={(e) => setFirstName(e.target.value)}
-                  className="w-full px-4 py-2 text-[14px] border rounded-md shadow-[inset_0px_2px_3px_rgba(0,0,0,0.2)]"
+                  className="w-full px-4 py-2 text-[14px] text-black placeholder-gray-500 border rounded-md shadow-[inset_0px_2px_3px_rgba(0,0,0,0.2)]"
                 />
               </div>
 
@@ -153,7 +153,7 @@ function CreateAccount() {
                   placeholder="Enter your last name"
                   value={lastName}
                   onChange={(e) => setLastName(e.target.value)}
-                  className="w-full px-4 py-2 text-[14px] border rounded-md shadow-[inset_0px_2px_3px_rgba(0,0,0,0.2)]"
+                  className="w-full px-4 py-2 text-[14px] text-black placeholder-gray-500 border rounded-md shadow-[inset_0px_2px_3px_rgba(0,0,0,0.2)]"
                 />
               </div>
 
@@ -165,7 +165,7 @@ function CreateAccount() {
                   type="date"
                   value={dob}
                   onChange={(e) => setDob(e.target.value)}
-                  className="w-full px-4 py-2 text-[14px] border rounded-md shadow-[inset_0px_2px_3px_rgba(0,0,0,0.2)]"
+                  className="w-full px-4 py-2 text-[14px] text-black placeholder-gray-500 border rounded-md shadow-[inset_0px_2px_3px_rgba(0,0,0,0.2)]"
                 />
               </div>
 
@@ -178,7 +178,7 @@ function CreateAccount() {
                   placeholder="Enter your address"
                   value={address}
                   onChange={(e) => setAddress(e.target.value)}
-                  className="w-full px-4 py-2 text-[14px] border rounded-md shadow-[inset_0px_2px_3px_rgba(0,0,0,0.2)]"
+                  className="w-full px-4 py-2 text-[14px] text-black placeholder-gray-500 border rounded-md shadow-[inset_0px_2px_3px_rgba(0,0,0,0.2)]"
                 />
               </div>
             </>
@@ -195,7 +195,7 @@ function CreateAccount() {
             <button
               type="button"
               onClick={() => setStep(1)}
-              className="text-sm text-center text-blue-700 hover:underline"
+              className="text-sm text-center text-black hover:underline"
             >
               Back
             </button>

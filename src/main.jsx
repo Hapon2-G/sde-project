@@ -7,6 +7,8 @@ import CreateAccount2 from "./CreateAccount2";
 import BuyerDashboard from "./buyerDashboard";
 import App from "./App.jsx";
 import ForgotPassword from "./ForgotPassword.jsx";
+import ProfilePage from './ProfilePage';
+import ProfilePage2 from "./ProfilePage2.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -17,6 +19,8 @@ createRoot(document.getElementById("root")).render(
         <Route path="/create-account" element={<CreateAccount />} />
         <Route path="/create-account-2" element={<CreateAccount2 />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
+        <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/profile2" element={<ProfilePage2 />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
