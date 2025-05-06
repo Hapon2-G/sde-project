@@ -14,7 +14,7 @@ function CreateAccount2() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // You can add validation logic here
+    
     if (!username || !password || !confirmpassword || !email) {
       alert("Please fill out all fields.");
       return;
@@ -25,10 +25,10 @@ function CreateAccount2() {
       return;
     }
 
-    // Simulate account creation
+    
     setAccountCreated(true);
 
-    // Redirect after a short delay
+    
     setTimeout(() => {
       navigate("/login");
     }, 2000);
@@ -55,14 +55,14 @@ function CreateAccount2() {
           and Email
         </p>
 
-        {/* Step Dots */}
+        
         <div className="mt-2 flex mb-4 justify-center">
           <div className="w-2 h-2 mx-1 bg-blue-900 rounded-full"></div>
           <div className="w-2 h-2 mx-1 bg-gray-300 rounded-full"></div>
           <div className="w-2 h-2 mx-1 bg-gray-300 rounded-full"></div>
         </div>
 
-        {/* Form */}
+        
         <form onSubmit={handleSubmit} className="flex flex-col gap-2 space-y-4">
           <div>
             <label className="block text-sm font-medium text-gray-700 text-left">

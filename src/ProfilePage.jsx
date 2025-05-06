@@ -15,7 +15,7 @@ function ProfilePage() {
 
   return (
     <div className="flex flex-col w-screen h-screen font-sans overflow-hidden">
-      {/* Navbar */}
+      
       <div className="flex flex-row w-full h-[70px] p-4 text-white bg-[#213567] gap-10 items-center justify-between shadow-xl">
         <div className="flex flex-row gap-20 items-center transition duration-200 ml-8">
           <Link to="/dashboard">
@@ -63,10 +63,10 @@ function ProfilePage() {
         </div>
       </div>
 
-      {/* Main Content */}
+      
       <div className="flex-1 bg-[#FAEBD7] overflow-hidden">
         <div className="flex h-full overflow-y-auto overflow-x-hidden px-20 py-6 gap-6 justify-center">
-          {/* Sidebar */}
+          
           <div className="w-48 bg-white shadow-md rounded-sm">
             <div className="flex flex-col text-gray-700">
               <Link to="/profile" className="py-4 px-6 bg-blue-50 text-blue-600 font-medium border-l-4 border-blue-600 text-lg">
@@ -84,7 +84,7 @@ function ProfilePage() {
             </div>
           </div>
 
-          {/* Profile Form */}
+          
 <div className="flex-1 bg-white rounded-2xl border border-black shadow-md overflow-hidden max-w-4xl">
   <div className="border-b border-gray-200 px-6 py-4">
     <h2 className="text-2xl font-medium text-gray-800 text-left">Profile Information</h2>
@@ -92,7 +92,7 @@ function ProfilePage() {
 
 
             <div className="p-6 flex">
-              {/* Form Fields */}
+             
               <div className="flex-1 space-y-4 pr-6">
                 <div className="flex flex-col items-start">
                   <label className="text-sm text-gray-700 mb-1">Username</label>
@@ -156,7 +156,7 @@ function ProfilePage() {
                   </div>
                 </div>
 
-                {/* Edit Button */}
+                
 <div className="pt-4 flex justify-start">
   <button
     onClick={() => navigate("/profile2")}
@@ -168,10 +168,10 @@ function ProfilePage() {
 
               </div>
 
-              {/* Profile Image Area */}
+              
               <div className="w-64 flex flex-col items-center justify-start pt-4">
                 <div className="w-32 h-32 rounded-full border border-gray-300 flex items-center justify-center bg-gray-100">
-                  {/* Profile image placeholder */}
+                  
                 </div>
                 <button className="mt-4 px-4 py-2 bg-[#213567] text-white rounded">
                   Select Image

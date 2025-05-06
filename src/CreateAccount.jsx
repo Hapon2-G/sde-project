@@ -3,13 +3,13 @@ import { useState } from "react";
 function CreateAccount() {
   const [step, setStep] = useState(1);
 
-  // Step 1 State
+ 
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [confirmpassword, setConfirm] = useState("");
   const [email, setEmail] = useState("");
 
-  // Step 2 State
+  
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [dob, setDob] = useState("");
@@ -19,10 +19,10 @@ function CreateAccount() {
     e.preventDefault();
 
     if (step === 1) {
-      // Proceed to step 2
+      
       setStep(2);
     } else {
-      // Final form submission logic
+      
       console.log({
         username,
         password,
@@ -55,7 +55,7 @@ function CreateAccount() {
           Step {step}: {step === 1 ? "Account Credentials" : "Personal Details"}
         </p>
 
-        {/* Pagination Dots */}
+        
         <div className="mt-2 flex mb-4 justify-center">
           <div
             className={`w-2 h-2 mx-1 rounded-full ${

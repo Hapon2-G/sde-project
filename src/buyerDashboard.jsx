@@ -3,7 +3,7 @@ import { MdAccountCircle } from "react-icons/md";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-function buyerDashboard() {
+function BuyerDashboard() {
   const [showDropdown, setShowDropdown] = useState(false);
   const products = Array(20).fill({
     name: "Sample Item",
@@ -13,7 +13,7 @@ function buyerDashboard() {
 
   return (
     <div className="flex flex-col overflow-clip w-screen h-screen font-sans">
-      {/* Navbar */}
+      
       <div className="flex flex-row w-full h-[70px] p-4 text-white bg-[#213567] gap-10 items-center justify-between shadow-xl">
         <div className="flex flex-row gap-20 items-center transition duration-200 ml-8">
           <FaHome size={25} className="cursor-pointer hover:text-[#DDA853]" />
@@ -69,9 +69,9 @@ function buyerDashboard() {
         </div>
       </div>
 
-      {/* Main Content */}
+      
       <div className="flex flex-1 overflow-hidden">
-        {/* Sidebar Ad */}
+       
         <div className="w-[200px] p-4">
           <img
             src="ad.jpg"
@@ -80,7 +80,7 @@ function buyerDashboard() {
           />
         </div>
 
-        {/* Product Grid */}
+      
         <div
           className="flex-1 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6
             overflow-auto no-scrollbar mt-4 ml-2 mr-4 bg-[#FAEBD7] gap-2 p-4"
@@ -105,7 +105,7 @@ function buyerDashboard() {
         </div>
       </div>
 
-      {/* Floating Cart Button */}
+      
       <button className="w-[125px] p-4 bg-[#F6B24D] rounded-xl shadow-lg fixed bottom-10 right-10 flex items-center justify-center">
         <FaShoppingCart size={30} color="black" />
       </button>
@@ -113,4 +113,4 @@ function buyerDashboard() {
   );
 }
 
-export default buyerDashboard;
+export default BuyerDashboard;
